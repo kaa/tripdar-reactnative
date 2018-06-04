@@ -1,0 +1,30 @@
+{
+  "name": "tripdar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@mapbox/polyline": "^0.2.0",
+    "@turf/turf": "^5.0.4",
+    "react": "16.0.0-beta.5",
+    "react-native": "^0.50.3",
+    "react-native-google-places": "^2.4.2",
+    "react-native-maps": "^0.17.1",
+    "react-native-svg-image": "^2.0.1",
+    "react-navigation": "^1.0.0-beta.19",
+    "react-native-swiper": "^1.5.13"
+  },
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest-expo": "^22.0.0",
+    "react-test-renderer": "16.0.0-beta.5"
+  }
+}

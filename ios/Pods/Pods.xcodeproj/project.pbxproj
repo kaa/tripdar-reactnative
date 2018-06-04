@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080CD6E480AEE97B1819FD031AAA2C1F /* Pods-tripdar-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4037A828CACF1C4EC29DB33BBA7E0D7F /* Pods-tripdar-tvOSTests-dummy.m */; };
+		4346CE14F979BE4F634F4E41E784FE53 /* Pods-tripdar-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD357DFE7915C0CC09492709911D6597 /* Pods-tripdar-tvOS-dummy.m */; };
+		4A833DDB1188C1D8072E45FB3FC60772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B95CC96A9C145EF9BDFCD12AFED84D05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C48E1880F4C5977188691055F2119D8F /* Pods-tripdarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F0E9808506BD96D9423C1EE14D079D /* Pods-tripdarTests-dummy.m */; };
+		D7CEDE8E5CD9C4D0443157DBB39F2F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DCB8821B7E41E5EA569AB2F2B642A409 /* Pods-tripdar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7826B252A9A8C47E05B63F542A9974 /* Pods-tripdar-dummy.m */; };
+		F508FDCBA177F8D183AA0B0BB78F0700 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		1106A1705401631B245392AB2AD08670 /* Pods-tripdar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tripdar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1117A6D1FE68A6F983D560933AF5E265 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		19612E06FB0DC692B3D5DC463998FE64 /* Pods-tripdar-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripdar-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2550C4C9692624AF160C572B389E63E2 /* Pods-tripdarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripdarTests-resources.sh"; sourceTree = "<group>"; };
+		34A5D5934B078529BE6D3A3ACCB29309 /* Pods-tripdarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tripdarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4037A828CACF1C4EC29DB33BBA7E0D7F /* Pods-tripdar-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tripdar-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		43EE72B820D8D104F922E369F8817A4F /* Pods-tripdar-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripdar-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		44159E85CC9BF56C4D9FED6FF9C6F917 /* libPods-tripdar-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-tripdar-tvOS.a"; path = "libPods-tripdar-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465527E0D41599F35CCDC6DE0C3B5BC4 /* Pods-tripdarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tripdarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52D201DAEA8D0B5772C2053187CE23AB /* Pods-tripdar-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripdar-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		56323EFCE6A578F585A016E74B8D86C2 /* Pods-tripdar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tripdar-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D8ABEF8110DE82BD9924A99E2F59701 /* Pods-tripdar-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tripdar-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		65A0F5C2981EFE40DBF05E44A6598B0B /* libPods-tripdar-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-tripdar-tvOSTests.a"; path = "libPods-tripdar-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72185E68531B6813E824A8307EC6E226 /* Pods-tripdar-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripdar-tvOS-resources.sh"; sourceTree = "<group>"; };
+		7AF3E4500D1F12CCB4C282E5FB86678A /* Pods-tripdar-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tripdar-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CEB0A6BD382DFDFB71879A7AE5666FE /* Pods-tripdar-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripdar-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8495161BD9B1BF4FDBB5CCF4286B5DA4 /* Pods-tripdar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripdar-frameworks.sh"; sourceTree = "<group>"; };
+		87920B0482F33CE4F0D1700B5682AE7C /* Pods-tripdar-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripdar-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		8BCCCA295DEE22197B0C283775AB5A26 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		8C0A7CAA4C749E9FBFBC6F694AA8AE19 /* Pods-tripdar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripdar-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		9747C16C4821825BCA0FA8EC7DC09041 /* libPods-tripdarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-tripdarTests.a"; path = "libPods-tripdarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A38C89ED314DC98A8B60C70775BC446 /* libPods-tripdar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-tripdar.a"; path = "libPods-tripdar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C119EE6C3D59DBE921787DE6695AEA3 /* Pods-tripdar-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripdar-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD05A58FD4E2234494F3FAEAB9C3D000 /* Pods-tripdarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripdarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF31710376E33BD0153867C060A01672 /* Pods-tripdar-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tripdar-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9B940E1693884E5C7E751D263379D72 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		CC1B6D662FADC3B9D5DFD34A484FD9A8 /* Pods-tripdar-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripdar-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		CC525C4A84587D4FC29C3907E9DC01EE /* Pods-tripdar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripdar.debug.xcconfig"; sourceTree = "<group>"; };
+		D1DBCD0071D70866EBEFA8E983E0A2FE /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		D3D843BD9FFB5F0A0218D682ADE4ED00 /* Pods-tripdarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tripdarTests-frameworks.sh"; sourceTree = "<group>"; };
+		D57A28887B9E80E29D36BD414E63A790 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		DB7826B252A9A8C47E05B63F542A9974 /* Pods-tripdar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tripdar-dummy.m"; sourceTree = "<group>"; };
+		DD357DFE7915C0CC09492709911D6597 /* Pods-tripdar-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tripdar-tvOS-dummy.m"; sourceTree = "<group>"; };
+		DE6D813C2480BFCB39E614B9535A00EF /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		E136E73C8524CEFAE4A1E67B0429E19F /* Pods-tripdarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripdarTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4F0E9808506BD96D9423C1EE14D079D /* Pods-tripdarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tripdarTests-dummy.m"; sourceTree = "<group>"; };
+		F8C40F89562D00ECFC6F7D4B5A26849D /* Pods-tripdar-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tripdar-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDA2B33374016E010AB78F9919C35C57 /* Pods-tripdar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tripdar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2683E83B81C87CB60AA7760AF3E8B1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CEDE8E5CD9C4D0443157DBB39F2F18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0830ABF0E3B088B65F0A25DBB61988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F508FDCBA177F8D183AA0B0BB78F0700 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7279E53C0262C3EA6C48BC59B35C7853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A833DDB1188C1D8072E45FB3FC60772 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F58F2851AF589CAEBF70389D80064E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95CC96A9C145EF9BDFCD12AFED84D05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */,
+				DADFB7FC1731804E229D4AEF6493F2F7 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		45A6375AD18305E8BA7B79AD1BE61E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCCCA295DEE22197B0C283775AB5A26 /* GoogleMaps.framework */,
+				1117A6D1FE68A6F983D560933AF5E265 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E1071C4BD0FBC999D410013ABFC8218 /* Pods-tripdar-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7AF3E4500D1F12CCB4C282E5FB86678A /* Pods-tripdar-tvOS-acknowledgements.markdown */,
+				F8C40F89562D00ECFC6F7D4B5A26849D /* Pods-tripdar-tvOS-acknowledgements.plist */,
+				DD357DFE7915C0CC09492709911D6597 /* Pods-tripdar-tvOS-dummy.m */,
+				43EE72B820D8D104F922E369F8817A4F /* Pods-tripdar-tvOS-frameworks.sh */,
+				72185E68531B6813E824A8307EC6E226 /* Pods-tripdar-tvOS-resources.sh */,
+				52D201DAEA8D0B5772C2053187CE23AB /* Pods-tripdar-tvOS.debug.xcconfig */,
+				19612E06FB0DC692B3D5DC463998FE64 /* Pods-tripdar-tvOS.release.xcconfig */,
+			);
+			name = "Pods-tripdar-tvOS";
+			path = "Target Support Files/Pods-tripdar-tvOS";
+			sourceTree = "<group>";
+		};
+		64214873C1959428BA92CB29EE4F226E /* Pods-tripdarTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A5D5934B078529BE6D3A3ACCB29309 /* Pods-tripdarTests-acknowledgements.markdown */,
+				465527E0D41599F35CCDC6DE0C3B5BC4 /* Pods-tripdarTests-acknowledgements.plist */,
+				F4F0E9808506BD96D9423C1EE14D079D /* Pods-tripdarTests-dummy.m */,
+				D3D843BD9FFB5F0A0218D682ADE4ED00 /* Pods-tripdarTests-frameworks.sh */,
+				2550C4C9692624AF160C572B389E63E2 /* Pods-tripdarTests-resources.sh */,
+				AD05A58FD4E2234494F3FAEAB9C3D000 /* Pods-tripdarTests.debug.xcconfig */,
+				E136E73C8524CEFAE4A1E67B0429E19F /* Pods-tripdarTests.release.xcconfig */,
+			);
+			name = "Pods-tripdarTests";
+			path = "Target Support Files/Pods-tripdarTests";
+			sourceTree = "<group>";
+		};
+		7A999BD5B4C2C01904FC59776164FBE1 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				45A6375AD18305E8BA7B79AD1BE61E9D /* Frameworks */,
+				E8816D4FFB28FB18F0B906E7CC732470 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C62832EC902B481843EFC870F9D95CC2 /* Pods */,
+				80B6751D95AAB902C5CA60B7F23A5323 /* Products */,
+				B432B80FC10C667A0F816CA527CDFB1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80B6751D95AAB902C5CA60B7F23A5323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A38C89ED314DC98A8B60C70775BC446 /* libPods-tripdar.a */,
+				44159E85CC9BF56C4D9FED6FF9C6F917 /* libPods-tripdar-tvOS.a */,
+				65A0F5C2981EFE40DBF05E44A6598B0B /* libPods-tripdar-tvOSTests.a */,
+				9747C16C4821825BCA0FA8EC7DC09041 /* libPods-tripdarTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BA44F82F96D164DA342FB09A0BEE150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FFA7EAE118844748AD9685060A6B673 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FD4ED290151C28ABCF7A3EA0217355EB /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		954124F92ACF3C0390CC9E62C7DECE6D /* Pods-tripdar-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF31710376E33BD0153867C060A01672 /* Pods-tripdar-tvOSTests-acknowledgements.markdown */,
+				5D8ABEF8110DE82BD9924A99E2F59701 /* Pods-tripdar-tvOSTests-acknowledgements.plist */,
+				4037A828CACF1C4EC29DB33BBA7E0D7F /* Pods-tripdar-tvOSTests-dummy.m */,
+				87920B0482F33CE4F0D1700B5682AE7C /* Pods-tripdar-tvOSTests-frameworks.sh */,
+				CC1B6D662FADC3B9D5DFD34A484FD9A8 /* Pods-tripdar-tvOSTests-resources.sh */,
+				9C119EE6C3D59DBE921787DE6695AEA3 /* Pods-tripdar-tvOSTests.debug.xcconfig */,
+				7CEB0A6BD382DFDFB71879A7AE5666FE /* Pods-tripdar-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-tripdar-tvOSTests";
+			path = "Target Support Files/Pods-tripdar-tvOSTests";
+			sourceTree = "<group>";
+		};
+		9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07790BD46C0A51AE9AF086D8F62242CC /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B432B80FC10C667A0F816CA527CDFB1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2D25334AFC404ADDEE18C78C04DC39 /* Pods-tripdar */,
+				4E1071C4BD0FBC999D410013ABFC8218 /* Pods-tripdar-tvOS */,
+				954124F92ACF3C0390CC9E62C7DECE6D /* Pods-tripdar-tvOSTests */,
+				64214873C1959428BA92CB29EE4F226E /* Pods-tripdarTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB2D25334AFC404ADDEE18C78C04DC39 /* Pods-tripdar */ = {
+			isa = PBXGroup;
+			children = (
+				1106A1705401631B245392AB2AD08670 /* Pods-tripdar-acknowledgements.markdown */,
+				56323EFCE6A578F585A016E74B8D86C2 /* Pods-tripdar-acknowledgements.plist */,
+				DB7826B252A9A8C47E05B63F542A9974 /* Pods-tripdar-dummy.m */,
+				8495161BD9B1BF4FDBB5CCF4286B5DA4 /* Pods-tripdar-frameworks.sh */,
+				8C0A7CAA4C749E9FBFBC6F694AA8AE19 /* Pods-tripdar-resources.sh */,
+				CC525C4A84587D4FC29C3907E9DC01EE /* Pods-tripdar.debug.xcconfig */,
+				FDA2B33374016E010AB78F9919C35C57 /* Pods-tripdar.release.xcconfig */,
+			);
+			name = "Pods-tripdar";
+			path = "Target Support Files/Pods-tripdar";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62832EC902B481843EFC870F9D95CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */,
+				CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */,
+				057612C31241123A1B53E2F8FEE23AB0 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCA175DF4D87459CA14C4E01BCFDEF95 /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9C0A1FBBD02B7528347BC7FB84DE24F5 /* Frameworks */,
+				CCDB8ACB50B37F1810F3A87BA87382A7 /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		CCDB8ACB50B37F1810F3A87BA87382A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE6D813C2480BFCB39E614B9535A00EF /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DADFB7FC1731804E229D4AEF6493F2F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9B940E1693884E5C7E751D263379D72 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E5C0912CEC7444CFF51EFFE502270519 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA7EAE118844748AD9685060A6B673 /* Base */,
+				7A999BD5B4C2C01904FC59776164FBE1 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		E8816D4FFB28FB18F0B906E7CC732470 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D57A28887B9E80E29D36BD414E63A790 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FD4ED290151C28ABCF7A3EA0217355EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1DBCD0071D70866EBEFA8E983E0A2FE /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ED6A1840F10D73EB941E7D347AB0903 /* Pods-tripdarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412DA4D180DB08C9AD3F9C85ADE63227 /* Build configuration list for PBXNativeTarget "Pods-tripdarTests" */;
+			buildPhases = (
+				C1B4FD82ECCBF7B636AE3A0D27E1CE73 /* Sources */,
+				B1F58F2851AF589CAEBF70389D80064E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-tripdarTests";
+			productName = "Pods-tripdarTests";
+			productReference = 9747C16C4821825BCA0FA8EC7DC09041 /* libPods-tripdarTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E8B4091F3D3D32852408421EC1B43F1 /* Pods-tripdar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2FE56F70785054853369B8537D7FE7 /* Build configuration list for PBXNativeTarget "Pods-tripdar" */;
+			buildPhases = (
+				12739A07DBC050715E8A7F5339C856DF /* Sources */,
+				2683E83B81C87CB60AA7760AF3E8B1BE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-tripdar";
+			productName = "Pods-tripdar";
+			productReference = 9A38C89ED314DC98A8B60C70775BC446 /* libPods-tripdar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C936A11E493A1812118F732B8A242AC7 /* Pods-tripdar-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8E85355D5D769138996CD67AE2E08C /* Build configuration list for PBXNativeTarget "Pods-tripdar-tvOS" */;
+			buildPhases = (
+				79E6CC3B6EE2E204B9351A54EFBF3641 /* Sources */,
+				3D0830ABF0E3B088B65F0A25DBB61988 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-tripdar-tvOS";
+			productName = "Pods-tripdar-tvOS";
+			productReference = 44159E85CC9BF56C4D9FED6FF9C6F917 /* libPods-tripdar-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D145296BE53AD476AD6CBE62FFA6557A /* Pods-tripdar-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2533075F8373843C6D6392A2E93D8458 /* Build configuration list for PBXNativeTarget "Pods-tripdar-tvOSTests" */;
+			buildPhases = (
+				7E473A98C79EE9496628EBB618C4EEC0 /* Sources */,
+				7279E53C0262C3EA6C48BC59B35C7853 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-tripdar-tvOSTests";
+			productName = "Pods-tripdar-tvOSTests";
+			productReference = 65A0F5C2981EFE40DBF05E44A6598B0B /* libPods-tripdar-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 80B6751D95AAB902C5CA60B7F23A5323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E8B4091F3D3D32852408421EC1B43F1 /* Pods-tripdar */,
+				C936A11E493A1812118F732B8A242AC7 /* Pods-tripdar-tvOS */,
+				D145296BE53AD476AD6CBE62FFA6557A /* Pods-tripdar-tvOSTests */,
+				4ED6A1840F10D73EB941E7D347AB0903 /* Pods-tripdarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12739A07DBC050715E8A7F5339C856DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB8821B7E41E5EA569AB2F2B642A409 /* Pods-tripdar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E6CC3B6EE2E204B9351A54EFBF3641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4346CE14F979BE4F634F4E41E784FE53 /* Pods-tripdar-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E473A98C79EE9496628EBB618C4EEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080CD6E480AEE97B1819FD031AAA2C1F /* Pods-tripdar-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B4FD82ECCBF7B636AE3A0D27E1CE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48E1880F4C5977188691055F2119D8F /* Pods-tripdarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AB196BA8088217F16D638FB673BC899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E136E73C8524CEFAE4A1E67B0429E19F /* Pods-tripdarTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4696A02BE66CA136CC77CB3E36D97D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D201DAEA8D0B5772C2053187CE23AB /* Pods-tripdar-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		46BC48938BE10295BEAC775582A00872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA2B33374016E010AB78F9919C35C57 /* Pods-tripdar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6AA44BAD22E095F8EE94F06D11F12CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD05A58FD4E2234494F3FAEAB9C3D000 /* Pods-tripdarTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BCE4DE6960475DFF6686A5004C1C1D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C119EE6C3D59DBE921787DE6695AEA3 /* Pods-tripdar-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F62640A0DE1DFF4C1698D013284A2DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19612E06FB0DC692B3D5DC463998FE64 /* Pods-tripdar-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FD5140FAFFF69814964FE88D70D48F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEB0A6BD382DFDFB71879A7AE5666FE /* Pods-tripdar-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FDF1D2838769E59B7649D1827CD488B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC525C4A84587D4FC29C3907E9DC01EE /* Pods-tripdar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2533075F8373843C6D6392A2E93D8458 /* Build configuration list for PBXNativeTarget "Pods-tripdar-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE4DE6960475DFF6686A5004C1C1D21 /* Debug */,
+				FD5140FAFFF69814964FE88D70D48F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2FE56F70785054853369B8537D7FE7 /* Build configuration list for PBXNativeTarget "Pods-tripdar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF1D2838769E59B7649D1827CD488B6 /* Debug */,
+				46BC48938BE10295BEAC775582A00872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412DA4D180DB08C9AD3F9C85ADE63227 /* Build configuration list for PBXNativeTarget "Pods-tripdarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA44BAD22E095F8EE94F06D11F12CEC /* Debug */,
+				0AB196BA8088217F16D638FB673BC899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8E85355D5D769138996CD67AE2E08C /* Build configuration list for PBXNativeTarget "Pods-tripdar-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4696A02BE66CA136CC77CB3E36D97D52 /* Debug */,
+				F62640A0DE1DFF4C1698D013284A2DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
